@@ -1,0 +1,13 @@
+{
+    "max-concurrent-indexers" : 2,
+    "dbpath" : "data",
+    "repos" : {
+        "wealthfront-backend" : {
+            "url" : "ssh://git@stash.wlth.fr:7999/back/wealthfront-backend.git",
+            "url-pattern" : {
+                "base-url" : "https://stash.wlth.fr/projects/BACK/repos/wealthfront-backend/browse/{path}{anchor}",
+                "anchor" : "#{line}"
+            }
+        }
+    }
+}
